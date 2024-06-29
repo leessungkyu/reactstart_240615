@@ -8,26 +8,39 @@ import Circle from "./pill/Circle";
 import CircleWithX from "./pill/CircleWithX";
 import Pallet from "./pallet/Pallet";
 import Items from "./Items";
-import ProfileImg from "./Comment/ProfileImg";
-import Content from "./Comment/Content";
-import CommentItem from "./Comment/CommentItem";
-import CommentPage from "./Comment/CommentPage";
-
+import ProfileImg from "./Comment_test/ProfileImg";
+import Content from "./Comment_test/Content";
+import CommentItem from "./Comment_test/CommentItem";
+import CommentPage from "./Comment_test/CommentPage";
+import NickName from "./Comment/NickName";
+import ProfileImage from "./Comment/ProfileImage";
+import CommentDate from "./Comment/CommentDate";
+import Comment from "./Comment/Comment";
+import MyButton from "./MyButton";
+import InputForm from "./inputForm";
+import InputType from "./InputType";
+import { useState } from "react";
+import Recruit from "./recruit";
 function App() {
   //h1 태그 css 색은 하늘색, 폰트사이즈 20px
   //h1 태그 내용 오늘 점심
-
   return (
-    <div className="App">
-      <CommentPage />
+    <div>
+      <Recruit />
     </div>
   );
 }
 
 export default App;
-
+// tailwindcss 설치
+// npm install -D tailwindcss postcss autoprefixer
+// npx tailwindcss init -p
 {
   /* 
+      <MyButton />
+      <CommentPage />
+      <Comment />
+
       <Pallet Bgcolor="white" Texts="light blue" />
       <Pallet Bgcolor="#E1F5FE" Texts="50" />
       <Pallet Bgcolor="#B3E5FC" Texts="100" />
